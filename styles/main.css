@@ -1,15 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
     box-sizing: border-box;
-=======
->>>>>>> 040f6500779816857a764072c1cddd5672a4d2d1
 }
 
 :root {
     --title-color: #322153;
-    --primary-color: #34cb79
+    --primary-color: #34cb79;
+    --second-color: #f0f0f5;
 }
 
 html {
@@ -24,22 +22,15 @@ a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 li {
     list-style: none;
 }
 
-=======
->>>>>>> 040f6500779816857a764072c1cddd5672a4d2d1
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
     color: var(--title-color);
 }
 
-<<<<<<< HEAD
-
-
-=======
 #page-home {
     height: 100vh;
     background: url('../icones/home-background.svg') no-repeat;
@@ -157,4 +148,3 @@ h1, h2, h3, h4, h5, h6 {
         align-items: center;
     }
 }
->>>>>>> 040f6500779816857a764072c1cddd5672a4d2d1

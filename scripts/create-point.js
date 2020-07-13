@@ -85,7 +85,5 @@ function handleSelectedItem(event){
         selectedItems.push(itemId)
     } 
 
-    console.log(selectedItems)
-
     collectItems.value = selectedItems
 }

@@ -7,25 +7,19 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
-<<<<<<< HEAD
-    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/modal.css">
 
-=======
-    <link rel="stylesheet" href="/styles/main.css">
->>>>>>> 040f6500779816857a764072c1cddd5672a4d2d1
+
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
 
     <div id="page-home">
         <div class="content">
             <header>
-<<<<<<< HEAD
                 <img src="./icones/logo.svg" alt="logomarca">
-=======
-                <img src="/icones/logo.svg" alt="logomarca">
->>>>>>> 040f6500779816857a764072c1cddd5672a4d2d1
                 <a href="#">
                     <span></span>Cadastre um ponto de coleta
                 </a>
@@ -42,6 +36,27 @@
             </main>
         </div>   
     </div>
-    
+
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de coleta</h1>
+
+                <a href="#">Fechar</a>
+            </div>
+            <form>
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Pesquise por cidade">
+                    <button>
+                        <img src="icones/search.svg">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/scripts/index.js"></script>
 </body>
 </html>
